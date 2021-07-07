@@ -37,7 +37,7 @@ pip install matplotlib
 >Divided Steps into two:
 
 ``A. Scripting in Python``
-```Python
+```
 Step1: Firstly, Install all the required packages mentioned above and go through the respective documentation.
 Step2: We have to register an account on https://openweathermap.org/ and generate an API Key.
        Note: I have used Current Weather Data, But you can use different kinds of API's and upgrade your app.
