@@ -4,8 +4,11 @@ import matplotlib.pyplot as plt
 from matplotlib import dates
 from datetime import datetime
 from matplotlib import rcParams
-from API import owm
+from pyowm import owm
 from pyowm.commons.exceptions import NotFoundError
+
+#API KEY
+owm = pyowm.OWM('13396e2da2b93d0b4b2c526651854212')
 
 # Streamlit Display
 st.set_page_config(layout="centered")
