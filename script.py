@@ -9,7 +9,6 @@ from pyowm.commons.exceptions import NotFoundError
 
 # Streamlit Display
 st.set_page_config(layout="centered")
-
 st.title(" 📅 WEATHER FORECASTER 🌥️ ☔ ")
 
 col1, mid, col2 = st.beta_columns([80, 5, 140])
@@ -18,7 +17,9 @@ with col1:
 with col2:
     st.image('india.jpg', width=50)
 
-st.markdown("### [GITHUB](https://github.com/ColonelAVP) | [INSTAGRAM](https://www.instagram.com/athervvpatil/) | [TWITTER](https://twitter.com/ColonelAVP_) | [LINKEDIN](https://www.linkedin.com/in/atherv-patil-4a86691b1/)")
+st.markdown("### [GITHUB](https://github.com/ColonelAVP) | [INSTAGRAM](https://www.instagram.com/athervvpatil/) | ["
+            "TWITTER](https://twitter.com/ColonelAVP_) | [LINKEDIN]("
+            "https://www.linkedin.com/in/atherv-patil-4a86691b1/)")
 st.header("🌐 Enter the name of City and Select Temperature Unit")
 place = st.text_input("NAME OF THE CITY 🌆 ", " ")
 unit = st.selectbox(" SELECT TEMPERATURE UNIT 🌡 ", ("Celsius", "Fahrenheit"))
@@ -90,6 +91,7 @@ def plot_bars(days, min_t, max_t):
                      color='black')
     st.pyplot()
     plt.clf()
+
 
 # Main function
 def weather_detail(place, unit, g_type):
@@ -177,3 +179,4 @@ if b:
 
         except NotFoundError:
             st.write("Please enter a Valid city name")
+
