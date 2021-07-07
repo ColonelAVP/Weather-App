@@ -81,8 +81,10 @@ Step5: In manual deploy, Finally Click Deploy and wait till it gives you textbox
 - [Blog](https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd)
 
 ## ⭕ Contributions:
-Contributions are always welcomed. Make sure you read the [Contribution] info before making pull request.
+Contributions are always welcomed. Make sure you read the [Contribution](https://github.com/ColonelAVP/Weather-App/blob/master/Contribution.md) info before making pull request.
 
 ## ⭕ Screenshots:
-
-
+![alt tag](https://raw.githubusercontent.com/ColonelAVP/Weather-App/master/IMG/1.1.png)
+![alt_tag](https://raw.githubusercontent.com/ColonelAVP/Weather-App/master/IMG/1.2.png)
+![alt_tag](https://raw.githubusercontent.com/ColonelAVP/Weather-App/master/IMG/1.3.png)
+![alt tag](https://raw.githubusercontent.com/ColonelAVP/Weather-App/master/IMG/1.4.png)
