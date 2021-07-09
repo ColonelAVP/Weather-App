@@ -1,5 +1,5 @@
 # ▶️ Weather-Forecast-App ⛅
-✅ Check the deployed project [here](weatherapp-avp.herokuapp.com/).
+✅ Check the deployed project [here](https://weatherapp-avp.herokuapp.com/).
 ## ⭕ Introduction:
 A weather forecast app is web-based application to get weather updates and any other climatic changes.
 In this project, I've made a weather forecast application using **Streamlit**  and **PYOWM** libraries in Python and then deploy the project on Heroku platform which is absolute free hosting platform.
